@@ -3,11 +3,11 @@ package com.dev.hobby.ulid;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-public class UlidGenerateTest {
+public class UliGenerateTest {
 
     @Test
     public void testGenerate() {
-        UlidGenerate ulidGenerate = new UlidGenerate();
+        UliGenerate ulidGenerate = new UliGenerate();
         String result = ulidGenerate.generate();
 
         Assertions.assertNotNull(result,"ULID should not be null");
